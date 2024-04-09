@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+
+        }
+        caption{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+        }
+        col.cnome{
+            background-color: green;
+        }
+        col.csexo{
+            background-color: yellow;
+        }
+        col.cidade{
+            background-color: cyan;
+        }
+        col.cprof{
+            background-color: darkkhaki;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Sandro Medeiros</td>
+            <td>M</td>
+            <td>58</td>
+            <td>Caminhoneiro</td>
+        </tr>
+        <tr>
+            <td>Ricardo Mendez</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Sandra Quirino</td>
+            <td>F</td>
+            <td>54</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Cesar Borges</td>
+            <td>M</td>
+            <td>56</td>
+            <td>Administrador</td>
+        </tr>
+        <tr>
+            <td>Luciano Piva</td>
+            <td>M</td>
+            <td>58</td>
+            <td>Policial</td>
+        </tr>
+        <tr>
+            <td>Angela Maria</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Diretora de RH</td>
+        </tr>
+        <tr>
+            <td>Frida Kalo</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Pintora</td>
+        </tr>
+        <tr>
+            <td>Miguel Angeli</td>
+            <td>M</td>
+            <td>60</td>
+            <td>Cartunista</td>
+        </tr>
+        <tr>
+            <td>Shirley Cecilia</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Artista Plastica</td>
+        </tr>
+
+    </table>
+
+    
+</body>
+</html>

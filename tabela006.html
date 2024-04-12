@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+
+    <style>
+         body{
+        font-family: arial, helvetica, sans-serif;
+    }
+
+    caption{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    thead, tfoot{
+        background-color: rgb(75, 73, 73);
+        color: white;
+    }
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: rgb(75, 73, 73) ;
+    }
+
+    tbody > tr:nth-child(2n){
+        background-color: lightgray;
+    </style>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorum hic dignissimos quae perferendis similique quod numquam, aliquam pariatur neque sint officia iure earum nobis! Dolorem quibusdam vero nisi recusandae?</p>
+    <table>
+        <caption>Tabelas Responsivas</caption>
+        
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+                <th>Abr</th>
+                <th>Mai</th>
+                <th>Jun</th>
+                <th>Jul</th>
+                <th>Ago</th>
+                <th>Set</th>
+                <th>Out</th>
+                <th>Nov</th>
+                <th>Dez</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
